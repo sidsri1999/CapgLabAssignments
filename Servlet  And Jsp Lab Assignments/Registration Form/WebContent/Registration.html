@@ -1,0 +1,93 @@
+<!DOCTYPE html><html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+</head>
+<body>
+	<form action="Services" method="get">
+		<h1 style="text-align:center;">Registration Form</h1>
+		<table style="width:100%">
+			<tr>
+				<td>
+					<label  for="uname">User name:</label>
+				</td>
+				<td>
+			  		<input  type="text" id="uname" name="uname">
+			  	</td>
+		  	</tr>
+		  	<tr>
+				<td>	
+			  		<label for="password">Password :</label>
+			  	</td>
+				<td>
+			  		<input type="text" id="password" name="password">
+			  	</td>
+			<tr>
+				<td>  		
+			  		<label for="rPassword">Re-enter Password:</label>
+			  	</td>
+				<td>
+			  		<input type="text" id="rPassword" name="rPassword">
+			  	</td>
+			<tr>
+				<td>		
+			  		<label for="age">Age:</label>
+			  	</td>
+				<td>
+			  		<input type="text" id="age" name="age">
+			  	</td>
+			<tr>
+				<td> 		
+			  		<label for="gender">Gender:</label>
+			  	</td>
+				<td>
+			  		<input type="radio" id="male" name="gender" value="male" checked="checked">
+					<label for="male">Male</label>
+					<input type="radio" id="female" name="gender" value="female">
+					<label for="female">Female</label>
+					<input type="radio" id="other" name="gender" value="other">
+					<label for="other">Other</label>
+				</td>
+			<tr>
+				<td>		
+					<label for="city">City :</label>
+				</td>
+				<td>
+					<select id="city" name="city">
+					  <option value="Greater Noida">Greater Noida</option>
+					  <option value="Noida">Noida</option>
+					  <option value="Gurgaon">Gurgaon</option>
+					  <option value="Delhi">Delhi</option>
+					</select>
+				</td>
+			<tr>
+				<td>		
+					<label for="technologies">Technology Known :</label>
+				</td>
+				<td>
+			  		<input type="checkbox" id="tech1" name="technologies" value="Java" checked="checked">
+					<label for="tech1"> Java</label>
+					<input type="checkbox" id="tech2" name="technologies" value="Angular">
+					<label for="tech2"> Angular</label>
+					<input type="checkbox" id="tech3" name="technologies" value="Python">
+					<label for="tech3"> Python</label>
+					<input type="checkbox" id="tech4" name="technologies" value="R">
+					<label for="tech4"> R</label>
+					<input type="checkbox" id="tech5" name="technologies" value="Oracle">
+					<label for="tech5"> Oracle</label>
+					<input type="checkbox" id="tech6" name="technologies" value="Juniper">
+					<label for="tech6"> Juniper</label>
+				</td>
+			<tr>
+				<td>		
+					<label for="wexp">Work Experience :</label>
+				</td>
+				<td>
+			  		<input id="wexp" name="wexp" type="range" min="0" max="20" value="10">
+			  	</td>
+			</tr>
+		</table>
+		<input style="text-align:center"type="submit" value="Submit">
+	</form>
+</body>
+</html>
